@@ -1,0 +1,55 @@
+.social-footer-container {
+  width: 100vw;
+  /* border: 2px solid black; */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-main-container {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-rights {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #737373;
+  text-align: center;
+}
+
+.social-container {
+  width: 10%;
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .social-container {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social-container {
+    margin-top: 10px;
+    width: 20%;
+  }
+  .social-main-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .social-container {
+    margin-top: 10px;
+    width: 30%;
+  }
+}
