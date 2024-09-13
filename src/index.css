@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+* {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+}
+
 /* For no scrollbar */
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -29,7 +35,7 @@
 }
 
 .bg-fifth {
-  background-color: #96ba7b;
+  background: #96ba7b;
 }
 
 .bg-sixth {

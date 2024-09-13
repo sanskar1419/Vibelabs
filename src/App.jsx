@@ -1,14 +1,14 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Notification from "./components/Notification/Notification";
+import MainNavbar from "./components/Navbar/Navbar";
 
 export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Navbar />,
+      element: <MainNavbar />,
       children: [
         {
           index: true,
