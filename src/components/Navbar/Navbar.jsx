@@ -14,8 +14,8 @@ export default function MainNavbar() {
   return (
     <>
       <Navbar expand="lg" className="bg-first" fixed="top">
-        <Container fluid className="navbarContainer">
-          <Link style={{ textDecoration: "none" }} to="\">
+        <Container className="navbar-container" fluid>
+          <Link style={{ textDecoration: "none" }} to="/">
             <Navbar.Brand
               style={{
                 fontSize: "1rem",
@@ -33,16 +33,16 @@ export default function MainNavbar() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="\">Home</Nav.Link>
-              <Nav.Link href="\">Product</Nav.Link>
-              <Nav.Link href="\">Pricing</Nav.Link>
-              <Nav.Link href="\">Product</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/">Product</Nav.Link>
+              <Nav.Link href="/">Pricing</Nav.Link>
+              <Nav.Link href="/">Product</Nav.Link>
             </Nav>
             <Nav className="">
               <Nav.Link
                 className=""
                 style={{ marginRight: "20px", color: "#96ba7b" }}
-                href="\"
+                href="/"
               >
                 Login
               </Nav.Link>
