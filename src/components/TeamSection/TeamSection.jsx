@@ -3,7 +3,7 @@ import "./TeamSection.css";
 
 export default function TeamSection() {
   return (
-    <div className="team-main-container">
+    <div className="team-main-container bg-first">
       <div className="team-container">
         <div className="team-section-container">
           <div className="team-subheading">Team</div>

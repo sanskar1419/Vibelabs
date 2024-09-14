@@ -22,7 +22,7 @@ function TeamCarousel1000() {
   };
 
   return (
-    <Carousel fade keyboard wrap data-bs-theme="dark">
+    <Carousel fade keyboard wrap>
       <Carousel.Item>
         <div className="carousel-wrapper">
           <div className="card shadow-lg">

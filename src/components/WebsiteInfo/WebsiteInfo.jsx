@@ -1,6 +1,7 @@
 import "./WebsiteInfo.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaTv } from "react-icons/fa";
+import { IoTelescopeSharp } from "react-icons/io5";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
@@ -60,13 +61,13 @@ export default function WebsiteInfo() {
           >
             <Card.Body>
               <div className="item-image">
-                <FaTv color="white" />
+                <IoTelescopeSharp color="white" />
               </div>
               <Card.Title
                 className="card-title"
                 style={{ fontSize: "1rem", fontWeight: "600" }}
               >
-                Certified Teacher
+                Expert Instruction
               </Card.Title>
               <div className="right-line"></div>
               <Card.Text style={{ fontSize: "0.8rem", color: "#737373" }}>
