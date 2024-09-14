@@ -13,196 +13,29 @@ import { useState } from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import useWindowDimensions from "../../hooks/useWindowsDimenssion";
+import TeamCarousel1000 from "../TeamCarousel1000/TeamCarousel1000";
+import TeamCarousel700 from "../TeamCarousel700/TeamCarousel700";
+import TeamCarouselL700 from "../TeamCarouselL700/TeamCarouselL700";
 
 function IndividualIntervalsExample() {
+  const { height, width } = useWindowDimensions();
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
+
   return (
-    <Carousel data-bs-theme="dark" fade>
-      <Carousel.Item interval={1000}>
-        <div className="carousel-wrapper">
-          <div className="card shadow-lg">
-            <div className="image-container">
-              <img src={team2} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team3} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team4} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team5} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <div className="carousel-wrapper">
-          <div className="card shadow-lg">
-            <div className="image-container">
-              <img src={team2} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team7} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team8} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team9} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div className="carousel-wrapper">
-          <div className="card shadow-lg">
-            <div className="image-container">
-              <img src={team6} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team4} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team2} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="image-container">
-              <img src={team3} className="" alt="..." />
-            </div>
-            <div className="card-body d-flex justify-content-center flex-column align-items-center">
-              <h5 className="card-title">Jullian Jamison</h5>
-              <p className="card-text">Profession</p>
-              <div className="social-container">
-                <FaFacebook color="#96ba7b" />
-                <FaInstagram color="#96ba7b" />
-                <FaTwitter color="#96ba7b" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </Carousel.Item>
-    </Carousel>
+    <>
+      {width >= 1200 ? (
+        <TeamCarousel1000 />
+      ) : width >= 700 ? (
+        <TeamCarousel700 />
+      ) : (
+        <TeamCarouselL700 />
+      )}
+    </>
   );
 }
 
