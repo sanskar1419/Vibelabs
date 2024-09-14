@@ -1,6 +1,5 @@
 import "./HeroSection.css";
 import heroImag from "../../assets/hero-image.png";
-import Button from "react-bootstrap/Button";
 
 export default function HeroSection() {
   return (

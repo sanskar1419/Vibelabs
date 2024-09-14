@@ -1,4 +1,6 @@
 import "./Footer.css";
+
+// React Icons
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
