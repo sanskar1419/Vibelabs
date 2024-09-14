@@ -1,0 +1,136 @@
+.info-main-container {
+  width: 100vw;
+  padding: 3rem;
+  /* min-height: 40vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-left-container {
+  width: 50%;
+}
+
+.left-line {
+  width: 25%;
+  background-color: #a01a10;
+  height: 6px;
+  margin-bottom: 1.2rem;
+}
+
+.info-left-heading {
+  font-size: 2rem;
+  color: #252b42;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.info-left-para {
+  font-size: 0.7rem;
+  width: 60%;
+  color: #737373;
+  margin-bottom: 0.6rem;
+}
+
+.left-button-container {
+  font-size: 0.7rem;
+  color: #96ba7b;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 2px solid black; */
+}
+
+.right-arrow {
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  /* border: 2px solid black; */
+  margin-top: -4px;
+}
+
+.right-arrow:hover {
+  /* transform: scaleX(5); */
+  margin-left: 5px;
+}
+
+.info-right-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.item-image {
+  padding: 10px;
+  background-color: #96ba7b;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 0.6rem;
+  color: #252b42;
+}
+
+.right-line {
+  width: 40%;
+  background-color: #a01a10;
+  height: 4px;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .info-left-container {
+    width: 40%;
+  }
+  .info-right-container {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-left-container {
+    width: 60%;
+    margin-bottom: 1.5rem;
+  }
+  .info-right-container {
+    width: 80%;
+  }
+  .info-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-right-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info-right-container {
+    flex-direction: column;
+    width: 150%;
+  }
+
+  .info-container {
+    overflow: hidden;
+  }
+}
