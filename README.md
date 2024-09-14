@@ -6,15 +6,13 @@ A comprehensive and end-to-end e-learning web page application providing excelle
 
 **Client:** ReactJs, CSS, HTML, Bootstrap, React-icon
 
-````
-
 ## Deployment Link
 
 To view the documentation go to this link
 
 ```bash
-   https://vibelabs-bv21kxzcs-sanskar-guptas-projects.vercel.app/
-````
+   https://vibelabs-bv21kxzcs-sanskar-guptas-projects.vercel.app
+```
 
 ## Installation
 
